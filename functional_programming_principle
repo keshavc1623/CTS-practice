@@ -1,12 +1,12 @@
-//java script functional programing principle
-
-
 function f1(f)
 {
     console.log("😎😎😎😎😎😎😎😎😎😎😎😎")
     if(f)
     {
         f();
+    }
+    else{
+        console.log("f1")
     }
     console.log("👍👍👍👍👍👍👍👍👍👍👍👍👍👍")
 }
@@ -19,7 +19,7 @@ function f3()
 {
     console.log("f3");
 }
-
+f1();
 f1(f2);
 console.log("----------------------------------")
 f1(f3);
