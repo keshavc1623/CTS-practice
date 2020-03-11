@@ -1,0 +1,25 @@
+//java script functional programing principle
+
+
+function f1(f)
+{
+    console.log("😎😎😎😎😎😎😎😎😎😎😎😎")
+    if(f)
+    {
+        f();
+    }
+    console.log("👍👍👍👍👍👍👍👍👍👍👍👍👍👍")
+}
+function f2()
+{
+    console.log("f2");
+}
+
+function f3()
+{
+    console.log("f3");
+}
+
+f1(f2);
+console.log("----------------------------------")
+f1(f3);
